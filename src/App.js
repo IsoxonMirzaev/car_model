@@ -9,7 +9,7 @@ import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div className="bg-[#F8F8F8]">
+    <div className="bg-[#F8F8F8] w-full">
       <Navbar />
       <Main />
       <Explore />

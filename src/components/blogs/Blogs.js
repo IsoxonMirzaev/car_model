@@ -3,12 +3,12 @@ import React from "react";
 function Blogs() {
   return (
     <div className="bg-[#EAEBF0]">
-      <h1 className="flex flex-wrap my-12 items-center justify-center gap-3 text-2xl text-[#100E34] font-normal pt-10">
+      <h1 className="flex my-12 items-center justify-center gap-3 text-2xl text-[#100E34] font-normal pt-10">
         <hr className="text-[#D3D5E0] w-36" />
         Blogs
         <hr className="text-[#D3D5E0] w-36" />
       </h1>
-      <div className="flex justify-center gap-10">
+      <div className="flex flex-wrap justify-center gap-10">
         <div className="w-[400px] h-96 car pt-56">
           <div className="text-[#100E34] text-lg w-full h-20 bg-white rounded-2xl flex justify-center items-center pl-3">
             <h1 className="">

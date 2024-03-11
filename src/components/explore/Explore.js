@@ -6,11 +6,11 @@ function Explore() {
   return (
     <div className="bg-[#EAEBF0] pb-20">
       <h1 className="flex flex-wrap my-16 items-center justify-center gap-3 text-2xl text-[#100E34] font-normal pt-10">
-        <hr className="text-[#D3D5E0] w-36" />
+        <hr className="text-[#D3D5E0] w-36 hidden lg:block" />
         Explore
-        <hr className="text-[#D3D5E0] w-36" />
+        <hr className="text-[#D3D5E0] w-36 hidden lg:block" />
       </h1>
-      <div className="flex gap-14 justify-center">
+      <div className="flex flex-wrap gap-14 justify-center">
         <h1 className="text-lg text-[#666872] hover:bg-[#A2001D] hover:w-40 hover:h-12 hover:text-white hover:rounded-full hover:text-center hover:pt-2 duration-200">
           Cars & Minivan
         </h1>
@@ -24,10 +24,10 @@ function Explore() {
           Electrified
         </h1>
       </div>
-      <div className="mt-10 flex justify-around w-full pl-72">
+      <div className="mt-10 flex flex-wrap justify-center xl:justify-around w-full lg:pl-72">
         {explore_data.map((data) => {
           return (
-            <div className="w-full" key={data.id}>
+            <div className="w-full mt-5" key={data.id}>
               <div className="w-80 h-96 bg-white ml-20 relative rounded-3xl">
                 <div className="pt-5">
                   <h2 className="text-2xl text-[#100E34] ml-5">{data.name}</h2>
@@ -37,7 +37,7 @@ function Explore() {
                 </div>
                 <div>
                   <img
-                    className="absolute right-72 mt-10"
+                    className="absolute xl:block hidden right-72 mt-10"
                     src={data.image}
                     alt=""
                   />

@@ -10,11 +10,11 @@ function Footer() {
           <h1 className="text-[#100E34] font-bold text-lg font-sans">
             Subscribe To The Newsletter
           </h1>
-          <div className="flex items-center w-[400px] h-16 bg-[#FFFFFE] border-2 border-[#EAEBF0] rounded-full mt-10">
+          <div className="flex items-center xl:w-[400px] h-16 bg-[#FFFFFE] border-2 border-[#EAEBF0] rounded-full mt-10">
             <input
               type="text"
               placeholder="Enter Your Email"
-              className="w-80 h-6 ml-5 border-none outline-none "
+              className="xl:w-80 h-6 ml-5 border-none outline-none"
             />
             <button className="w-11 h-11 bg-[#A2001D] rounded-full text-center text-white text-2xl pl-2.5">
               <FaAngleRight />
@@ -32,7 +32,7 @@ function Footer() {
             </button>
           </div>
         </div>
-        <div className="flex gap-16">
+        <div className="flex flex-wrap gap-16 mt-5 xl:mt-0">
           <div>
             <h1 className="text-[#100E34] text-base font-bold">
               Buying & Selling
@@ -65,9 +65,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex gap-36 h-16 items-center pl-20 ">
+      <div className="flex flex-wrap gap-36 h-16 items-center pl-20 ">
         <h1 className="text-sm text-[#666872]">&copy; 2023 Car Leadership</h1>
-        <ul className="flex gap-10">
+        <ul className="flex flex-wrap gap-10">
           <li className="text-sm text-[#666872]">Terms Of Service</li>
           <li className="text-sm text-[#666872]">Privacy Policy</li>
           <li className="text-sm text-[#666872]">Trust & Safety</li>

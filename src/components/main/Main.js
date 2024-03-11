@@ -8,7 +8,7 @@ import Car_img from "../../img/Car-PNG-Photos 1.png";
 function Main() {
   return (
     <div>
-      <div className="flex items-center justify-center bg mt-10 p-20 bg-origin-content">
+      <div className="w-full flex-wrap flex items-center justify-center bg mt-10 p-20 bg-origin-content">
         <div>
           <h1 className="text-5xl font-bold text-[#100E34]">Find Your Dream</h1>
           <h1 className="text-[#A2001D] text-7xl font-bold mt-5 flex items-center gap-10">
@@ -22,7 +22,7 @@ function Main() {
           <img src={Car_img} alt="" />
         </div>
       </div>
-      <div className="flex flex-wrap gap-4 shadow-2xl w-[746px] h-24 items-center justify-center rounded-full mx-auto">
+      <div className="flex flex-wrap gap-4 shadow-2xl sm:w-80 md:w-96 lg:w-[600px] xl:w-[746px] h-24 items-center justify-center rounded-full mx-auto">
         <div className="flex">
           <div className="w-52">
             <h4 className="text-[#AFB1BA] flex items-center text-sm">
